@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Pauw Boba</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="./img/favicon-logo_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon-logo_io/apple-touch-icon.png"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- CSS từ các library -->
+    <!-- ------------ Bỏ vào từ đây ------------ -->
+    <!-- Magnific / Video-->
+    <link
+      rel="stylesheet"
+      href="./lib/Magnific-Popup-master/dist/magnific-popup.css"
+    />
+    <!-- ------------ đến đây nhé ------------ -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./index.css" />
+    
+
+
+  </head>
+
+  <body>
+    <section id="edit
+    ">
+      <header class="main__header">
+        <div class="container header__container">
+          <div class="header__content">
+            <div class="dinner__logo">
+              <h1>
+                <a href="http://127.0.0.1:54268/index.html">The Pauw Boba</a>
+              </h1>
+            </div>
+            <div class="header__nav">
+              <div class="header__search">
+                <form
+                  action="http://127.0.0.1:51151/index.html"
+                  method="GET"
+                  class="search"
+                >
+                  <input type="search" class="search__input dm-bg-dg"
+                  name="search__here" placeholder="Search here..."
+                  onload="equalWidth()" required">
+                  <span class="fa-solid fa-magnifying-glass dm-t-w"></span>
+                </form>
+              </div>
+              <div class="header__theme text-center">
+                <!-- toggle for light and dark theme -->
+                <div class="nav__theme">
+                  <div class="theme__container">
+                    <div class="theme__content">
+                      <label class="theme__switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="toggle" onclick="switchDarkMode()">
+                          <!-- <i class="fa-solid fa-sun-bright"></i> -->
+                          <i class="fa-regular fa-moon"></i>
+                          <i class="fa fa-sun"></i>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="drop__down text-center">
+                <button id="overlay__trigger" type="button">
+                  <i class="fa fa-bars" aria-hidden="trued"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="main__banner">
+        <div class="container banner__container">
+          <div class="banner__content row">
+            <div class="banner__info col-lg-8">
+              <h3 class="mg-4">
+                Bring boba milk tea to DePauw University and Greencastle!
+              </h3>
+              <p class="mt-md-4 mt-3">
+                Searching for that elusive boba tea fix? Fretting over delivery app limitations while all you desire is that satisfying boba goodness? Look no further than <span style="font-weight: bold">The Pauw Boba</span>, your haven for everything milk tea, conveniently located right on the DePauw University campus!
+              </p>
+              <a href="#" class="btn btn-white mt-sm-5 mt-4 mr-2">
+                Read More
+                <span>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="aboutUs py-5 dm-bg-dg dm-t-w">
+        <div class="container aboutUs__container py-md-5">
+          <div class="aboutUs__content row">
+            <div class="aboutUS__left col-lg-5">
+              <div class="aboutUS__title">
+                <h6>About Us</h6>
+                <h3>
+                  Discover The Pauw Boba - Your DePauw University Milk Tea Buddy!</h3>
+              </div>
+            </div>
+            <div class="aboutUS__right col-lg-7 pl-lg-5 mt-lg-0 mt-3">
+              <br>
+              <span style="font-weight: bold">"The Pauw Boba"</span> is a dynamic and engaging website that serves as the primary platform for promoting and managing our boba shop located at Depauw University.  
+              </p>
+              <p class="mt-3">
+                 As a proud winner of the <span style="font-weight: bold">3rd prize in the Spring Pitch Competition 2023 </span>, we are excited to present our innovative startup through this website.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="branch">
+        <div class="branch__container container-fluid px-lg-0">
+          <div class="row align-items-center no-gutters">
+            <div class="col-lg-6 px-0 pt-5 pt-lg-0">
+              <div class="branch__img">
+                <!-- <img src="./img/banner3.jpg" alt="" /> -->
+              </div>
+            </div>
+            <div class="col-lg-6 px-lg-4 p-lg-3 py-4">
+              <div class="branch__info p-md-5 p-3">
+              
+                <h3>Grab a drink easily at the best price</h3>
+                <p>
+                  We provide a variety of milk tea flavors and a wide selection of beverages available for purchase, all at an affordable price.
+                </p>
+                <div class="best mt-3 row">
+                  <div class="best__deals col-6">
+                    <div class="like mb-4">
+                      <span class="fa fa-thumbs-up"></span>
+                    </div>
+                    <a href="#" class="best__deals__title">Best Deals</a>
+                    <p>
+                      Free and instant on-campus delivery 
+                    </p>
+                  </div>
+                  <div class="best__food col-6">
+                    <div class="utensils mb-4">
+                      <span class="fa-solid fa-utensils"></span>
+                    </div>
+                    <a href="#" class="best__food__title">Best Food</a>
+                    <p>
+                      Made by experienced bakery owner <br> and worker in K-cafe
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    
+    <!-- CATEGORY -->
+      <section id="category">
+        <div id="service" class="py-5 dm-bg-lg dm-t-w">
+          <div class="service__title pt-5">
+            <h5>What do you want to drink today? </h5>
+            <h3>Popular Menu</h3>
+          </div>
+          <div class="service__list pb-5">
+            <div class="container">
+              <div class="row">
+                <div class="service__item col-lg-4 col-6">
+                  <div class="service__item__container">
+                    <div class="service__item__img">
+                      <img src="./img/Brown-Sugar-Milk-Tea.jpeg" />
+                    </div>
+                    <div class="service__item__title">
+                      <b>Brown Sugar Boba Tea</b>
+                      <p>$7.5</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="service__item col-lg-4 col-6">
+                  <div class="service__item__container">
+                    <div class="service__item__img">
+                      <img style="background-size: cover" src="./img/caramel-dalgona-coffee.jpg" />
+                    </div>
+                    <div class="service__item__title">
+                      <b>Dalgona Milk</b>
+                      <p>$8</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="service__item col-lg-4 col-6">
+                  <div class="service__item__container">
+                    <div class="service__item__img">
+                      <img style="background-size: cover" src="./img/Almond-Milk-Tea-Feat.jpg" />
+                    </div>
+                    <div class="service__item__title">
+                      <b>Boba Milk Tea</b>
+                      <p>$6</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="service__item col-lg-4 col-6">
+                  <div class="service__item__container">
+                    <div class="service__item__img">
+                      <img src="./img/strawberry_milk.jpeg" />
+                    </div>
+                    <div class="service__item__title">
+                      <b>Strawberry Milk</b>
+                      <p>$9</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="service__item col-lg-4 col-6">
+                  <div class="service__item__container">
+                    <div class="service__item__img">
+                      <img src="./img/Passion-Fruit.jpeg" />
+                    </div>
+                    <div class="service__item__title">
+                      <b>Passion Fruit Tea</b>
+                      <p>$5</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="service__item col-lg-4 col-6">
+                  <div class="service__item__container">
+                    <div class="service__item__img">
+                      <img style="background-size: cover" src="./img/thai-tea.jpeg" />
+                    </div>
+                    <div class="service__item__title">
+                      <b>Thai Milk Tea</b>
+                      <p>$8</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="card" class="py-5 dm-bg-dg dm-t-w">
+          <div class="container py-5">
+            <h5 sty;e="text-align:center">What do you want to eat today?</h5>
+            <h3>Food</h3>
+            <div class="row">
+              <div class="card__item col-xl-4 col-md-6">
+                <div class="card__container">
+                  <div class="card__header">
+                    <i class="fa fa-cookie-bite"></i>
+               
+                    <div class="card__title">
+                      <p>01</p>
+                      <b>Cookies</b>
+                    </div>
+                  </div>
+                  <p>
+                    Come in a variety of flavors, shapes, and sizes, offering a satisfying blend of crispy edges and soft centers.
+                  </p>
+                </div>
+              </div>
+              <div class="card__item col-xl-4 col-md-6">
+                <div class="card__container">
+                  <div class="card__header">
+                    <i class="fa fa-chart-pie"></i>
+                    <div class="card__title">
+                      <p>02</p>
+                      <b>Apple Pie</b>
+                    </div>
+                  </div>
+                  <p>
+                    Crafted with care, our apple pies boast a flaky, golden-brown crust that envelopes a generous filling of tender apples seasoned with cinnamon and spices.  
+                  </p>
+                </div>
+              </div>
+              <div class="card__item col-xl-4 col-md-6">
+                <div class="card__container">
+                  <div class="card__header">
+                    <i class="fa fa-birthday-cake"></i>                    <div class="card__title">
+                      <p>03</p>
+                      <b>Cake</b>
+                    </div>
+                  </div>
+                  <p>
+                    From rich and velvety chocolate layers to delicate vanilla creations adorned with luscious frosting, our cakes are a feast for the senses.
+                  </p>
+                </div>
+              </div>
+              <div class="card__item col-xl-4 col-md-6">
+                <div class="card__container">
+                  <div class="card__header">
+                    <i class="fa fa-bread-slice"></i>                    <div class="card__title">
+                      <p>04</p>
+                      <b>Breakfast</b>
+                    </div>
+                  </div>
+                  <p>
+                    Our range of instant breakfasts offers a delightful variety of flavors, from hearty oats infused with sweet fruits and nuts to savory options that satisfy your cravings.
+                  </p>
+                </div>
+              </div>
+              <div class="card__item col-xl-4 col-md-6">
+                <div class="card__container">
+                  <div class="card__header">
+                    <i class="fa fa-box"></i>
+                    <div class="card__title">
+                      <p>05</p>
+                      <b>Lunch Box</b>
+                    </div>
+                  </div>
+                  <p>
+                    Our selection of instant lunch boxes caters to a variety of palates and preferences. From savory pasta dishes to flavorful rice bowls
+                  </p>
+                </div>
+              </div>
+              <div class="card__item col-xl-4 col-md-6">
+                <div class="card__container">
+                  <div class="card__header">
+                    <i class="fa fa-utensils"></i>                    <div class="card__title">
+                      <p>06</p>
+                      <b>Dinner</b>
+                    </div>
+                  </div>
+                  <p>
+                    From hearty soups to savory stir-fries, each option is thoughtfully crafted to deliver a wholesome and flavorful dining experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="number">
+        <div class="number__banner container">
+          <div class="row justify-content-center">
+            <h2 class="col-12">Deliciousness jumping into the mouth.</h2>
+            <div
+              class="number__button col-10 col-md-8 col-lg-6 row justify-content-around"
+            >
+            
+              <button class="col-12 col-sm-5 mb-md-0 mb-5">
+                <span>Contact Us</span><i class="fa fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="number__list">
+          <div class="container">
+            <div class="row">
+              <div class="number__item col-6 col-lg-3">
+                <div class="number__item__container dm-bg-dg dm-t-w">
+                  <div class="number__icon"><i class="fa fa-building"></i></div>
+                  <h2 class="counter">2,764</h2>
+                  <p>Positive Reviews</p>
+                </div>
+              </div>
+              <div class="number__item col-6 col-lg-3">
+                <div class="number__item__container dm-bg-dg dm-t-w">
+                  <div class="number__icon"><i class="fa fa-cutlery"></i></div>
+                  <h2 class="counter">30</h2>
+                  <p>Food & Drink Items</p>
+                </div>
+              </div>
+              <div class="number__item col-6 col-lg-3">
+                <div class="number__item__container dm-bg-dg dm-t-w">
+                  <div class="number__icon"><i class="fa fa-users"></i></div>
+                  <h2 class="counter">4,598</h2>
+                  <p>Orders</p>
+                </div>
+              </div>
+              <div class="number__item col-6 col-lg-3">
+                <div class="number__item__container dm-bg-dg dm-t-w">
+                  <div class="number__icon"><i class="fa fa-smile"></i></div>
+                  <h2 class="counter">2,560</h2>
+                  <p>Happy Customers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="video" class="mx-auto">
+        <a
+          id="play-button"
+          href="#small-dialog"
+          class="open-popup-link popup-with-zoom-anim"
+        >
+          <i class="fa-solid fa-play"></i>
+        </a>
+        <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+          <iframe id="ytplayer"
+            src="https://player.vimeo.com/video/305185528"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </section>
+      <!-- For testing darkmode feature only -->
+      <!-- <button id="darkmode" class="btn btn-dark" onclick="switchDarkMode()">
+        DARK
+      </button> -->
+    
+
+ 
+    
+      <!-- blog post -->
+      <section class="blogposts py-5 dm-bg-lg dm-t-w" id="blogs">
+        <div class="container py-md-5 py-2 HomePageBlog">
+          <div class="header-title text-center">
+            <h6 class="title-post">Latest Posts</h6>
+            <h3 class="title-w3l">Blog Posts</h3>
+          </div>
+
+          <div class="row">
+            <!-- Blog Post 1 -->
+            <div class="col-lg-4 col-md-6 item mt-5">
+              <div class="card">
+                <div class="card-header p-0 position-relative">
+                  <a
+                    href="https://wp.w3layouts.com/diner/2021/03/01/hello-world/"
+                  >
+                    <div class="post-thumbnail">
+                      <img
+                        src="./img/caramel-dalgona-coffee.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </a>
+                  <div class="post-pos">
+                    <a
+                      href="https://www.linkedin.com/in/quynhtran158/"
+                      rel="category tag"
+                      >Drinks</a
+                    >
+                  </div>
+                </div>
+                <div class="card-body p-0 blog-details">
+                  <a
+                    href="https://www.linkedin.com/in/quynhtran158/"
+                    class="blog-desc dm-t-w"
+                    >Try This Dalgona!</a
+                  >
+                  <div class="p-footer mt-3">
+                    <div class="p-meta-info">
+                      <a
+                        href="https://www.linkedin.com/in/quynhtran158/"
+                        class="post-img-anchor"
+                      >
+                        <img
+                          src="./img/favicon-logo.png"
+                          class="post-img radius-img img-fluid"
+                        />
+                      </a>
+                      <a
+                        class="url fn n dm-t-w"
+                        href="https://www.linkedin.com/in/quynhtran158/"
+                        >The Pauw Boba</a
+                      >
+                    </div>
+                    <a
+                      href="https://www.linkedin.com/in/quynhtran158/"
+                      class="read dm-t-w"
+                      >Read More
+                      <span
+                        class="fa fa-chevron-right ml-2"
+                        aria-hidden="true"
+                      ></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="col-lg-4 col-md-6 item mt-5">
+              <div class="card">
+                <div class="card-header p-0 position-relative">
+                  <a
+                    href="https://wp.w3layouts.com/diner/2021/03/01/the-best-cookie-recipes-to-bake-this-weekend-6/"
+                  >
+                    <div class="post-thumbnail">
+                      <img
+                        src="img/Brown-Sugar-Milk-Tea.jpeg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </a>
+                  <div class="post-pos">
+                    <a
+                      href="https://www.linkedin.com/in/quynhtran158/"
+                      rel="category tag"
+                      >Drinks</a
+                    >
+                  </div>
+                </div>
+                <div class="card-body p-0 blog-details">
+                  <a
+                    href="https://www.linkedin.com/in/quynhtran158/"
+                    class="blog-desc dm-t-w"
+                    >The Boba Tea Recipe This Weekend</a
+                  >
+                  <div class="p-footer mt-3">
+                    <div class="p-meta-info">
+                      <a
+                        href="https://www.linkedin.com/in/quynhtran158/"
+                        class="post-img-anchor"
+                      >
+                        <img
+                          src="./img/favicon-logo.png"
+                          class="post-img radius-img img-fluid"
+                        />
+                      </a>
+                      <a
+                        class="url fn n dm-t-w"
+                        href="https://www.linkedin.com/in/quynhtran158/"
+                        >The Pauw Boba</a
+                      >
+                    </div>
+                    <a
+                      href="https://wp.w3layouts.com/diner/2021/03/01/the-best-cookie-recipes-to-bake-this-weekend-6/"
+                      class="read dm-t-w"
+                      >Read More
+                      <span
+                        class="fa fa-chevron-right ml-2"
+                        aria-hidden="true"
+                      ></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="col-lg-4 col-md-6 item mt-5">
+              <div class="card">
+                <div class="card-header p-0 position-relative">
+                  <a
+                    href="https://www.linkedin.com/in/quynhtran158/"
+                  >
+                    <div class="post-thumbnail">
+                      <img
+                        src="./img/strawberry_milk.jpeg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </a>
+                  <div class="post-pos">
+                    <a
+                      href="https://www.linkedin.com/in/quynhtran158/"
+                      rel="category tag"
+                      >Drinks</a
+                    >
+                  </div>
+                </div>
+                <div class="card-body p-0 blog-details">
+                  <a
+                    href="https://www.linkedin.com/in/quynhtran158/"
+                    class="blog-desc dm-t-w"
+                    >The Strawberry Milk Recipe This Weekend</a
+                  >
+                  <div class="p-footer mt-3">
+                    <div class="p-meta-info">
+                      <a
+                        href="https://wp.w3layouts.com/diner/author/w3layouts/"
+                        class="post-img-anchor"
+                      >
+                        <img
+                          src="./img/favicon-logo.png"
+                          class="post-img radius-img img-fluid"
+                        />
+                      </a>
+                      <a
+                        class="url fn n dm-t-w"
+                        href="https://www.linkedin.com/in/quynhtran158/"
+                        >The Pauw Boba</a
+                      >
+                    </div>
+                    <a
+                      href="https://www.linkedin.com/in/quynhtran158/"
+                      class="read dm-t-w"
+                      >Read More
+                      <span
+                        class="fa fa-chevron-right ml-2"
+                        aria-hidden="true"
+                      ></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- code moi -->
+      <section id="testimonial" class="dm-bg-dg">
+        <div class="container testimonial-container py-lg-5 py-3">
+          <h5>Tesimonials</h5>
+          <h3 class="dm-t-w">What People Say About Our Boba</h3>
+          <div class="bd-example">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="2"
+                ></li>
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="3"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active dm-bg-dg">
+                  <div class="carousel-caption d-md-block dm-t-w">
+                    <img src="./img/testimonial-image/perry.webp" />
+                    <i class="fa fa-quote-left py-3"></i>
+                    <h5 class="text-test dm-t-w">
+                      "OMG! I cannot believe. It's Awesome"
+                    </h5>
+                    <p>
+                      I really like the drinks at The Pauw Boba a lot. The flavors they offer are amazing and the quality is top-notch. Every time I have their drinks, it brings me a lot of joy. The different options they have cater to different tastes, and each sip feels special. It's more than just a regular liking – I genuinely enjoy the drinks from The Pauw Boba a whole lot.
+                    </p>
+                    <h3>Perry the Platypus</h3>
+                    <p>Customer</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-md-block dm-t-w">
+                    <img src="./img/testimonial-image/Doofenshmirtz_Portrait.webp" />
+                    <i class="fa fa-quote-left py-3"></i>
+                    <h5 class="text-test dm-t-w">
+                      "Simply the best. Better than all the rest."
+                    </h5>
+                    <p>
+                      I really like the drinks at The Pauw Boba a lot. The flavors they offer are amazing and the quality is top-notch. Every time I have their drinks, it brings me a lot of joy. The different options they have cater to different tastes, and each sip feels special. It's more than just a regular liking – I genuinely enjoy the drinks from The Pauw Boba a whole lot.
+                    </p>
+                    <h3>Heinz Doofenshmirtz</h3>
+                    <p>Customer</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-md-block dm-t-w">
+                    <img src="./img/testimonial-image/candance.webp" />
+                    <i class="fa fa-quote-left py-3"></i>
+                    <h5 class="text-test dm-t-w">
+                      "OMG! I cannot believe. It's Awesome"
+                    </h5>
+                    <p>
+                      I really like the drinks at The Pauw Boba a lot. The flavors they offer are amazing and the quality is top-notch. Every time I have their drinks, it brings me a lot of joy. The different options they have cater to different tastes, and each sip feels special. It's more than just a regular liking – I genuinely enjoy the drinks from The Pauw Boba a whole lot.
+                    </p>
+                    <h3>Candance Flynn</h3>
+                    <p>Customer</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-md-block dm-t-w">
+                    <img src="./img/testimonial-image/van.webp" />
+                    <i class="fa fa-quote-left py-3"></i>
+                    <h5 class="text-test dm-t-w">
+                      "OMG! I cannot believe. It's Awesome"
+                    </h5>
+                    <p>
+                      I really like the drinks at The Pauw Boba. The flavors they offer are amazing and the quality is top-notch. Every time I have their drinks, it brings me a lot of joy. The different options they have cater to different tastes, and each sip feels special. It's more than just a regular liking – I genuinely enjoy the drinks from The Pauw Boba a whole lot.
+                    </p>
+                    <h3>Vanessa Doofenshmirtz</h3>
+                    <p>Customer</p>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleCaptions"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleCaptions"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <section class="footer-main">
+          <div class="footer-29 py-5">
+            <div class="container py-lg-4 DinerFooter">
+              <div class="row footer-top">
+                <div
+                  class="col-lg-4 col-md-6 col-sm-7 footer-list footer-1 pr-lg-5"
+                >
+                  <div class="footer-logo mb-3">
+                    <h1>
+                      <a
+                        class="navbar-brand"
+                        href="https://www.linkedin.com/in/quynhtran158/"
+                        >The Pauw Boba</a
+                      >
+                    </h1>
+                  </div>
+                  <p>
+                    Join us in revolutionizing the boba scene at DePauw University and beyond. Explore our repository to dive into the code that powers "The Boba Shop" website, and let's continue spreading the boba love! 🥤🌟
+                  </p>
+
+                  <div class="main-social-footer-29 mt-4 footer-social">
+                    <a
+                      href="https://www.facebook.com/gongchatea"
+                      class="facebook"
+                      ><span class="fab fa-facebook-f"></span
+                    ></a>
+                    <a href="https://twitter.com/gongchatea?lang=vi" class="twitter"
+                      ><span class="fab fa-twitter"></span
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/gongchatea//"
+                      class="instagram"
+                      ><span class="fab fa-instagram"></span
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/quynhtran158/"
+                      class="linkedin"
+                      ><span class="fab fa-linkedin"></span
+                    ></a>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list footer-2 mt-sm-0 mt-5"
+                >
+                  <div id="categories-footer" class="widget_categories">
+                    <h6 class="footer-title">Categories</h6>
+                    <ul>
+                      <li class="cat-item cat-item-2">
+                        <a
+                          href="https://www.linkedin.com/in/quynhtran158/"
+                          >Drinks</a
+                        >
+                      </li>
+                      <li class="cat-item cat-item-3">
+                        <a href="https://www.linkedin.com/in/quynhtran158/"
+                          >Food</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list footer-3 mt-lg-0 mt-5"
+                >
+                  <div id="archives-footer" class="widget_archive">
+                    <h6 class="footer-title">Awards</h6>
+                    <ul>
+                      <li>
+                        <a href="https://www.linkedin.com/posts/mcdermond-center-for-management-and-entrepreneurship-at-depauw-university_startup-entrepreneurship-depauwu-activity-7043609854824890368-me7q?utm_source=share&utm_medium=member_desktop"
+                          >3rd Prize, Spring Pitch Competition</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div
+                  class="col-lg-4 col-md-6 col-sm-7 footer-list footer-4 mt-lg-0 mt-5 FooterSubscribe"
+                >
+                  <h6 class="footer-title">Subscribe to our Newsletter</h6>
+                  <p>
+                    Enter your email and receive the latest news, updates and
+                    special offers from us.
+                  </p>
+
+                  <form action="" class="subscribe mt-4" method="post">
+                    <input
+                      type="email"
+                      name="Email"
+                      placeholder="Your Email Address"
+                      required=""
+                    />
+                    <button class="btn btn-style btn-primary w-100 mt-3">
+                      Subscribe Now
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- copyright -->
+        <section class="copyright">
+          <div class="container">
+            <div class="row bottom-copies">
+              <p class="col-lg-8 copy-footer CopyRights mb-0">
+                © 2023 The Pauw Boba. All Rights Reserved 
+              </p>
+              <div class="col-lg-4 footer-list"></div>
+            </div>
+          </div>
+
+          <!-- move top -->
+          <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-angle-up"></span>
+          </button>
+          <!-- /move top -->
+        </section>
+        <!-- //copyright -->
+      </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS từ các library -->
+    <!-- ------------ Bỏ vào từ đây ------------ -->
+    <!-- Magnific/Video -->
+    <script src="./lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+
+    <!-- Count up -->
+    <script src="./lib/Count-Up/jquery.countup.js"></script>
+    <!-- <script src="./lib/Count-Up/jquery.min.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- ------------ đến đây nhé ------------ -->
+
+    <!-- Custom JS -->
+    <script src="./index.js"></script>
+  </body>
+</html>
